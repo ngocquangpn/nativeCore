@@ -1,0 +1,380 @@
+[
+  {
+    "status_code": "400",
+    "error_code": "USER1404.BadRequest",
+    "error_message": "Invalid luong_khac type or value",
+    "description": "Loại lương khác không hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "unique.ValidatorInvalid",
+    "error_message": "{'code': [ErrorDetail(string='contract with this code already exists.', code='unique')]}",
+    "description": "Lỗi validate"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TAKE_LEAVE501A.BadRequest",
+    "error_message": "Lack of information",
+    "description": "Thiếu thông tin nhân sự cần trạng thái làm + ngày bắt đầu làm"
+  },
+  {
+    "status_code": "400",
+    "error_code": "CONTTYPE101A.BadRequest",
+    "error_message": "Remove all contract before del this type.",
+    "description": "Xóa hợp đồng trước khi xóa loại hđ"
+  },
+  {
+    "status_code": "401",
+    "error_code": "AUTH4002.NotAuthenticated",
+    "error_message": "You have been retired",
+    "description": "Nghỉ việc rồi còn vào làm gì nữa"
+  },
+  {
+    "status_code": "400",
+    "error_code": "HIERACHY001S.WrongArguments",
+    "error_message": "No H3 matches position",
+    "description": "Không tìm thấy mã hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "RESIGN001A.BadRequest",
+    "error_message": "Unmodified this resign request",
+    "description": "Xin nghỉ rồi thì ko sửa nữa"
+  },
+  {
+    "status_code": "400",
+    "error_code": "CONTENT105M.BadRequest",
+    "error_message": "Invalid LoaiNghiPhep",
+    "description": "Loại nghỉ phép ko hợp lệ"
+  },
+  {
+    "status_code": "401",
+    "error_code": "not_authenticated.NotAuthenticated",
+    "error_message": "Authentication credentials were not provided.",
+    "description": "Xác thực ko hợp lệ"
+  },
+  {
+    "status_code": "403",
+    "error_code": "PERM012.PermissionDenied",
+    "error_message": "You do not have super admin permission to perform this action.",
+    "description": "Cần quyền admin"
+  },
+  {
+    "status_code": "400",
+    "error_code": "RESIGN101A.BadRequest",
+    "error_message": "Too many resign request at the same time",
+    "description": "Xin nghỉ việc lắm thế"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TAKE_LEAVE003V.ValidatorInvalid",
+    "error_message": "{'non_field_errors': [ErrorDetail(string='Invalid take leave date', code='TAKE_LEAVE003V')]}",
+    "description": "Ngày nghỉ phép ko hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TAKE_LEAVE105S.BadRequest",
+    "error_message": "Take leave date is already existed",
+    "description": "Ngay nghi da ton tai"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TAKE_LEAVE1201.BadRequest",
+    "error_message": "User is not in superior this request",
+    "description": "Ko phải thể duyệt nếu ko phải cấp trên"
+  },
+  {
+    "status_code": "401",
+    "error_code": "AUTH3001.NotAuthenticated",
+    "error_message": "Invalid decode token",
+    "description": "Token ko hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TOOL001S.WrongArguments",
+    "error_message": "Tool with same code has already been used",
+    "description": "Công cụ đã đc dùng"
+  },
+  {
+    "status_code": "400",
+    "error_code": "invalid.ValidationError",
+    "error_message": "{'created_date_lte': [ErrorDetail(string='Enter a number.', code='invalid')], 'created_date_gte': [ErrorDetail(string='Enter a number.', code='invalid')]}",
+    "description": "Lỗi validate các trường"
+  },
+  {
+    "status_code": "400",
+    "error_code": "AUTH2011.WrongArguments",
+    "error_message": "User is already registered.",
+    "description": "Người dùng đã đc đăng ký"
+  },
+  {
+    "status_code": "404",
+    "error_code": "src.base.exceptions.NotFound",
+    "error_message": "No Permission matches the given query.",
+    "description": "Query ko khớp"
+  },
+  {
+    "status_code": "400",
+    "error_code": "USER1302.BadRequest",
+    "error_message": "Invalid allowance type or value",
+    "description": "Loại phụ cấp ko hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "null.ValidatorInvalid",
+    "error_message": "{'month': [ErrorDetail(string='This field may not be null.', code='null')], 'year': [ErrorDetail(string='This field may not be null.', code='null')]}",
+    "description": "Lỗi validate các trường"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TAKE_LEAVE502A.BadRequest",
+    "error_message": "Unable to modify this request",
+    "description": "Ko thể sửa lại đơn nghỉ phép"
+  },
+  {
+    "status_code": "403",
+    "error_code": "PERM011.PermissionDenied",
+    "error_message": "You do not have admin permission to perform this action.",
+    "description": "KO có quyền"
+  },
+  {
+    "status_code": "400",
+    "error_code": "unique.ValidatorInvalid",
+    "error_message": "{'code': [ErrorDetail(string='cap bac with this code already exists.', code='unique')]}",
+    "description": "Mã thực thể đã tồn tại"
+  },
+  {
+    "status_code": "400",
+    "error_code": "CONTENT1011.BadRequest",
+    "error_message": "Cannot modify this content",
+    "description": "KO thể sửa nồi dung hệ thống"
+  },
+  {
+    "status_code": "415",
+    "error_code": "unsupported_media_type.UnsupportedMediaType",
+    "error_message": "Unsupported media type \"text/plain\" in request.",
+    "description": "Loại file ko hộ trợ"
+  },
+  {
+    "status_code": "403",
+    "error_code": "default_code.PermissionDenied",
+    "error_message": "You do not have permission to perform this action.",
+    "description": "Cần quyền để thực hiện"
+  },
+  {
+    "status_code": "401",
+    "error_code": "not_authenticated.NotAuthenticated",
+    "error_message": "Authentication credentials were not provided.",
+    "description": "ko thấy token"
+  },
+  {
+    "status_code": "400",
+    "error_code": "CONTENT101A.BadRequest",
+    "error_message": "Cannot modify this content",
+    "description": "KO xóa nội dung hệ thống"
+  },
+  {
+    "status_code": "400",
+    "error_code": "USER102A.BadRequest",
+    "error_message": "Invalid allowance type or value",
+    "description": "Loại phụ cấp ko hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "src.base.exceptions.ValidatorInvalid",
+    "error_message": "Unsupported file extension.",
+    "description": "File ko đc support"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPERS2011.BadRequest",
+    "error_message": "File invalid",
+    "description": "File ko hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "USER1402.BadRequest",
+    "error_message": "Invalid attribute type or value",
+    "description": "Trường mở rộng nhân sự ko hợp lệ"
+  },
+  {
+    "status_code": "404",
+    "error_code": "not_found.NotFound",
+    "error_message": "Invalid page.",
+    "description": "Page ko hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "min_value.ValidatorInvalid",
+    "error_message": "min_value.ValidatorInvalid",
+    "description": "Trường {} nhỏ hơn giá trị yêu cầu"
+  },
+  {
+    "status_code": "404",
+    "error_code": "src.base.exceptions.NotFound",
+    "error_message": "Not found.",
+    "description": "Not found."
+  },
+  {
+    "status_code": "400",
+    "error_code": "AUTH2011.WrongArguments",
+    "error_message": "User is already registered.",
+    "description": "Không thấy API"
+  },
+  {
+    "status_code": "400",
+    "error_code": "required.ValidatorInvalid",
+    "error_message": "{'month': [ErrorDetail(string='This field is required.', code='required')], 'action': [ErrorDetail(string='This field is required.', code='required')]}",
+    "description": "lỗi validate field"
+  },
+  {
+    "status_code": "400",
+    "error_code": "invalid.ValidationError",
+    "error_message": "{'type_object': [ErrorDetail(string='Select a valid choice. Gián tiếp nhà máy is not one of the available choices.', code='invalid_choice')]}",
+    "description": "Lỗi validate field không có trong lựa chọn"
+  },
+  {
+    "status_code": "400",
+    "error_code": "does_not_exist.ValidatorInvalid",
+    "error_message": "{'user': [ErrorDetail(string='Invalid pk \"24\" - object does not exist.', code='does_not_exist')]}",
+    "description": "Không tìm thấy id"
+  },
+  {
+    "status_code": "400",
+    "error_code": "PLAN_PT4022.BadRequest",
+    "error_message": "Start_date can not empty",
+    "description": "Ngày bắt đầu không được để trống"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPERS2012.BadRequest",
+    "error_message": "File invalid",
+    "description": "File excel không đúng định dạng"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_4111.BadRequest",
+    "error_message": "Time invalid",
+    "description": "Lỗi valid giá trị thời gian"
+  },
+  {
+    "status_code": "403",
+    "error_code": "PERM011.PermissionDenied",
+    "error_message": "You do not have admin permission to perform this action.",
+    "description": "Không đủ quyền thực hiện hành động"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_3071.BadRequest",
+    "error_message": "Số ngày không hợp lệ",
+    "description": "Số ngày không hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_3072.BadRequest",
+    "error_message": "Tháng chọn không hợp lệ",
+    "description": "Tháng chọn khộng hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "KPI1012.BadRequest",
+    "error_message": "User không phải dưới cấp bạn!",
+    "description": "User vote phải dưới cấp"
+  },
+  {
+    "status_code": "400",
+    "error_code": "max_value.ValidatorInvalid",
+    "error_message": "{'year': [ErrorDetail(string='Ensure this value is less than or equal to 2100.', code='max_value')]}",
+    "description": "Lỗi validate thời gian"
+  },
+  {
+    "status_code": "400",
+    "error_code": "null.ValidatorInvalid",
+    "error_message": "{'month': [ErrorDetail(string='This field may not be null.', code='null')], 'year': [ErrorDetail(string='This field may not be null.', code='null')]}",
+    "description": "Lỗi validate thời gian"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_3064.BadRequest",
+    "error_message": "Không thể xoá được dữ liệu khởi tạo của hệ thống",
+    "description": "Không xoá được dữ liệu khởi tạo của hệ thống"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_3074.BadRequest",
+    "error_message": "Ngày đã tồn tại",
+    "description": "Ngày chọn đề xuất đã tồn tại"
+  },
+  {
+    "status_code": "400",
+    "error_code": "DMS_S2011.BadRequest",
+    "error_message": "Không cập nhật giá trị đã tồn tại",
+    "description": "Không cập nhật giá trị đã tồn tại"
+  },
+  {
+    "status_code": "404",
+    "error_code": "KPI1011.NotFound",
+    "error_message": "Not found user",
+    "description": "Không tìm thấy user"
+  },
+  {
+    "status_code": "400",
+    "error_code": "incorrect_type.ValidatorInvalid",
+    "error_message": "{'user': [ErrorDetail(string='Incorrect type. Expected pk value, received str.', code='incorrect_type')]}",
+    "description": "Lỗi validate sai định dạng id"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_4012.BadRequest",
+    "error_message": "Time invalid",
+    "description": "Thời gian không hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_3077.BadRequest",
+    "error_message": "Đề xuất đã được xử lý",
+    "description": "Ngày đề xuất đã được xử lý"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER1021.BadRequest",
+    "error_message": "Không cùng khối kênh",
+    "description": "Không cùng khối kênh"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_3075.BadRequest",
+    "error_message": "Chỉ được tạo đề xuất cho user dưới cấp",
+    "description": "Chỉ được tạo đề xuất cho user dưới cấp"
+  },
+  {
+    "status_code": "400",
+    "error_code": "src.base.exceptions.ValidatorInvalid",
+    "error_message": "Unsupported file extension.",
+    "description": "Không hỗ trợ định dạng file"
+  },
+  {
+    "status_code": "400",
+    "error_code": "src.base.exceptions.IntegrityError",
+    "error_message": "duplicate key value violates unique constraint \"kpi_kpivote_month_user_id_year_f18c2f67_uniq\"\r\n DETAIL: Key (month, user_id, year)=(12, 38, 2020) already exists.",
+    "description": "Trùng lặp unique tháng"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPER_4011.BadRequest",
+    "error_message": "Time invalid",
+    "description": "Thời gian không hợp lệ"
+  },
+  {
+    "status_code": "400",
+    "error_code": "TIMEKEEPERS2014.BadRequest",
+    "error_message": "employee_code: 'NVD-0501-9586' not found in database",
+    "description": "Nhân viên mã: \"MÃ\" không tìm thấy trong csdl"
+  },
+  {
+    "status_code": "401",
+    "error_code": "AUTHS005",
+    "error_message": "This account has been resigned",
+    "description": "Nhân viên nghỉ việc bị chặn đăng nhập"
+  }
+]
